@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerodha</title>
+    <link rel="icon" type="image/x-icon" href="./static/zerodha.svg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="margin: 0px; padding: 0px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+   <div class="navbar" style="box-shadow: 2px 1px 2px #eee; display: flex; justify-content: space-between; align-items: center; padding: 15px 40px;">
+    <div class="logo" style="padding-left:15%">
+        <img src="./static/logo.svg" alt="logo" style="width: 150px;">
+    </div>
+    <div class="nav-btns" style="cursor: pointer;font-size: 15px;font-weight: 500; color: #666;display: flex; justify-content: space-between; align-items: center; width: 40%; padding-right: 15%;">
+        <div class="signup">Signup</div>
+        <div class="about">About</div>
+        <div class="products">Products</div>
+        <div class="pricing">Pricing</div>
+        <div class="support">Support</div>
+    </div>
+   </div>
+   <div class="banner" style="text-align: center; margin-top: 3%;">
+        <img style="width: 60%;" src="./static/landing.png" alt="zerodha-platform-screens" srcset="">
+    </div>
+    <div class="callToAction" style="text-align: center; margin-top: 3%; color: rgb(66, 66, 66);">
+        <h1 style="font-weight: 500; font-size: 42px; line-height: 30px;">Invest in everything</h1>
+        <h3 style="font-weight: 400; font-size: 20px;">Online platform to invest in stocks, derivatives, mutual funds, and more</h3>
+    </div>
+    <div class="btn" style="display: flex; justify-content: center; margin-top: 2%;">
+        <button class="submitBtn" type="submit">Sign up now</button>
+    </div>
+
+    <div class="return-cal-container">
+        <h2 style="font-weight: 500; font-size: 30px; color: rgb(66, 66, 66);">Returns Calculator</h2>
+        <div class="inputsoutput">
+            <div class="input">
+                <label for="principleAmt">Principle Amount</label>
+                <input type="number" min="0" placeholder="enter principle amount" id="principleAmt">
+                <label for="time">Investment tenure</label>
+                <input type="number" min="1" max="100" placeholder="enter investment tenure" id="time">
+                <label for="interest">Expected Interest</label>
+                <input type="number" min="1" placeholder="enter expected interest" id="interest">
+            </div>
+            <div class="output">
+
+                <h3 style="color: rgb(66, 66, 66);">Returns 0.0 INR</h3>
+            </div>
+        </div>
+        <div class="calBtn">
+                <button class="submitBtn calculate">Calculate</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

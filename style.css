@@ -1,0 +1,56 @@
+.submitBtn {
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 3px
+    ;font-size: 1.2em;
+    color: white;
+    background-color: #387ed1;
+    font-weight: 400;
+}
+.submitBtn:hover {
+    cursor: pointer ;
+    color: white ;
+    background-color: black ;
+    transition: 0.7s ;
+}
+
+.nav-btns :hover{
+    color: #387ed1;
+}
+
+.return-cal-container {
+    height: 40vh;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputsoutput {
+    height: 100%;
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px dotted #387ed1;
+    border-radius: 5px;
+}
+
+.calBtn {
+    margin: 0.5% 0;
+}
+
+.input{
+    width: 50%;
+    padding: 5px;
+    clear: both;
+}
+
+.input input{
+    clear: both;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 10px;
+}
